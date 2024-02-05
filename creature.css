@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "dragon hunter";
+    color: rgb(253, 240, 209);
+    font-weight: 100;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* body{
+    overflow: hidden;
+} */
+
+.screen{
+     height: 100%;
+     width: 100%;
+     background-color: rgb(100, 56, 67);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     transition: all ease-out 0.05;
+}
+
+.screen h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.screen button{
+    padding: 18px 30px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 2px solid rgb(253, 240, 209);
+    transition: all ease 0.1s;
+    cursor: pointer;
+}
+
+.screen button:active{
+    scale: 0.95s;
+}
+
+.screen button:hover{
+    background-color: rgb(253, 240, 209);
+    color: rgb(100, 56, 67);
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.screen h2{
+    font-size: 50px;
+}
+
+.elem img{
+    height: 200px;
+}
+
+.elem h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.elem{
+    width: 200px;
+    border: 2px solid rgb(253, 240, 209);
+    padding: 20px;
+    text-align: center;
+    transition: all ease 0.35s;
+}
+
+.elem:hover{
+    background-color: rgb(253, 240, 209);
+}
+
+.elem:hover h4{
+    color: rgb(100, 56, 67);
+    transition: all ease 0.3s;
+}
+
+.timeScore{
+    width: 100%;
+    padding: 25px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(253, 240, 209);
+}
+
+.timeScore h4{
+    font-size: 22px;
+}
+
+.timeScore h5{
+    font-size: 22px;
+}
+
+.playGround{
+    height: 95%;
+    width: 100%;
+    position: relative;
+}
+
+.playGround img{
+    height: 100px;
+    position: absolute;
+}
